@@ -1,12 +1,14 @@
 {
-  "name": "react-ts",
-  "version": "0.0.0",
-  "private": true,
+  "name": "gesture-cards-stack",
+  "version": "1.0.0",
+  "main": "src/index.tsx",
   "dependencies": {
-    "@react-spring/web": "^9.5.2",
-    "@use-gesture/react": "^10.2.17",
+    "@react-spring/web": "^9.4.5",
+    "@use-gesture/react": "latest",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.0",
+    "typescript": "^3.2.1 || ^4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,12 +16,16 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "devDependencies": {
-    "@types/react": "^18.0.8",
-    "@types/react-dom": "^18.0.2",
-    "react-scripts": "latest",
-    "typescript": "^4.7.4",
+    "@types/react": "^18.0.3",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.6.4",
     "typescript-plugin-css-modules": "^3.4.0"
   }
 }
